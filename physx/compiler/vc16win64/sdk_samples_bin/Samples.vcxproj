@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E223C03A-60EB-3732-BA26-5ABA88BD2E4F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Samples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Samples.dir\debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Samples_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Samples.dir\checked\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Samples_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='checked|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='checked|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='checked|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Samples.dir\profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Samples_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='profile|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='profile|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='profile|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">Samples.dir\release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='release|x64'">Samples_64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996;4245;4512;4996;4244;4100;4456;4189;4505;4389</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SampleBase_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SamplePlatform_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SampleFramework_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SampleRenderer_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SamplesToolkit_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXVehicle_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXCharacterKinematic_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXCooking_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SamplesToolkit_static_64.lib;Winmm.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysX_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXCommon_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXFoundation_64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/debug/Samples_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/debug/Samples_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996;4245;4512;4996;4244;4100;4456;4189;4505;4389</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="checked";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"checked\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\SampleBase_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\SamplePlatform_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\SampleFramework_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\SampleRenderer_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\SamplesToolkit_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXVehicle_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXCharacterKinematic_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXCooking_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\SamplesToolkit_static_64.lib;Winmm.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysX_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXCommon_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\checked\PhysXFoundation_64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/checked/Samples_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/checked/Samples_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996;4245;4512;4996;4244;4100;4456;4189;4505;4389</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="profile";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_PROFILE=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR=\"profile\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\SampleBase_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\SamplePlatform_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\SampleFramework_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\SampleRenderer_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\SamplesToolkit_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXVehicle_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXCharacterKinematic_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXCooking_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\SamplesToolkit_static_64.lib;Winmm.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysX_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXCommon_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\profile\PhysXFoundation_64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/profile/Samples_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/profile/Samples_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996;4245;4512;4996;4244;4100;4456;4189;4505;4389</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_SUPPORT_PVD=0;CMAKE_INTDIR="release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_HAS_ITERATOR_DEBUGGING=0;_ITERATOR_DEBUG_LEVEL=0;NDEBUG;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;_HAS_EXCEPTIONS=0;PX_SUPPORT_PVD=0;CMAKE_INTDIR=\"release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Programs\Projects\rpg_programs\PhysX\physx\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebase;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\framework\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\renderer\include;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\common\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\contact;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\common;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\convex;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\distance;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\gjk;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\intersection;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\mesh;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\hf;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\pcm;D:\Programs\Projects\rpg_programs\PhysX\physx\source\PhysXVehicle\src;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\pxtoolkit\include;D:\Programs\Projects\rpg_programs\PhysX\physx\..\pxshared\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\sweep;D:\Programs\Projects\rpg_programs\PhysX\physx\source\geomutils\src\ccd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\SampleBase_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\SamplePlatform_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\SampleFramework_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\SampleRenderer_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\SamplesToolkit_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXVehicle_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXCharacterKinematic_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXCooking_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\SamplesToolkit_static_64.lib;Winmm.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXExtensions_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysX_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXPvdSDK_static_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXCommon_64.lib;D:\Programs\Projects\rpg_programs\PhysX\physx\bin\win.x86_64.vc142.mt\release\PhysXFoundation_64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/release/Samples_64.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Programs/Projects/rpg_programs/PhysX/physx/bin/win.x86_64.vc142.mt/release/Samples_64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebridges\SampleBridges.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebridges\SampleBridges.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebridges\SampleBridgesCCT.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebridges\SampleBridgesInputEventIds.h" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplebridges\SampleBridgesSettings.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\Planet.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\Planet.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravity_CCT.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityBuilder.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityFilterShader.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecustomgravity\SampleCustomGravityInputEventIds.h" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplehelloworld\SampleHelloWorld.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplehelloworld\SampleHelloWorld.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\ChunkLoader.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\ChunkLoader.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\MeshBuilder.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\MeshBuilder.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\SampleLargeWorld.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\SampleLargeWorld.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\SampleLargeWorldCCT.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplelargeworld\SampleLargeWorldInputEventIds.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPole.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPole.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleBuilder.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCameraController.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleCCT.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleDynamics.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleFilterShader.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplenorthpole\SampleNorthPoleInputEventIds.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplesubmarine\Crab.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplesubmarine\Crab.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplesubmarine\SampleSubmarine.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplesubmarine\SampleSubmarine.h" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplesubmarine\SampleSubmarineInputEventIds.h" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplesubmarine\SubmarineCameraController.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicleDebugRender.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicleInputEventIds.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicleTerrain.cpp" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_CameraController.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_ControlInputs.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_GameLogic.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_SceneQuery.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleController.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_VehicleManager.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\KinematicPlatform.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\SampleCCTActor.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\SampleCCTCameraController.h" />
+    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.cpp" />
+    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\samplecctsharedcode\SampleCCTJump.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
+      <Project>{33289D40-3E21-3089-8B78-BC87E166F25A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysX.vcxproj">
+      <Project>{7C69C81F-196B-328D-B91E-637A24275D9B}</Project>
+      <Name>PhysX</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXCharacterKinematic.vcxproj">
+      <Project>{8624719C-FE1F-364B-8E1E-A473890421B5}</Project>
+      <Name>PhysXCharacterKinematic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXCommon.vcxproj">
+      <Project>{30EB1B38-8579-30EC-8C95-1261818193DD}</Project>
+      <Name>PhysXCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXCooking.vcxproj">
+      <Project>{8FE119A7-769E-3BC9-B4D5-B4F123FD1EEF}</Project>
+      <Name>PhysXCooking</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXExtensions.vcxproj">
+      <Project>{21EF3B01-1F72-3BF3-9183-549BFD61FD41}</Project>
+      <Name>PhysXExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXFoundation.vcxproj">
+      <Project>{07BE4E20-EDD3-34F9-B299-588BF9DAFEFF}</Project>
+      <Name>PhysXFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXPvdSDK.vcxproj">
+      <Project>{ECC02B21-36CC-3909-BC8A-EBB65CDB7F29}</Project>
+      <Name>PhysXPvdSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_source_bin\PhysXVehicle.vcxproj">
+      <Project>{021B3C3A-50FF-37E9-8150-3C551CC5478C}</Project>
+      <Name>PhysXVehicle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleBase.vcxproj">
+      <Project>{71CD0267-FA3D-3082-B76B-2F119EC0C18B}</Project>
+      <Name>SampleBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleFramework.vcxproj">
+      <Project>{A1A842C2-EC2D-3A9E-AC9C-DCCF7BD21C09}</Project>
+      <Name>SampleFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SamplePlatform.vcxproj">
+      <Project>{B8B932D7-A50E-35B2-9743-7A98EFC5ED14}</Project>
+      <Name>SamplePlatform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleRenderer.vcxproj">
+      <Project>{977909C3-4C48-31BB-ADDE-20C00906600F}</Project>
+      <Name>SampleRenderer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{DC85DCDC-DC6C-35DB-A09C-16C89760FA0F}</Project>
+      <Name>SampleToolkit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
