@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetcommon\ClassicMain.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetcommon\ClassicMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecontactmod\SnippetVehicleContactMod.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecontactmod\SnippetVehicleContactMod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecontactmod\SnippetVehicleContactModRender.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecontactmod\SnippetVehicleContactModRender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicle4WCreate.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicle4WCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleNoDriveCreate.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleNoDriveCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTankCreate.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTankCreate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleConcurrency.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleConcurrency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleCreate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleFilterShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleSceneQuery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleTireFriction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleWheelQueryResult.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\snippetvehiclecommon\SnippetVehicleWheelQueryResult.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{C15669F5-9BD2-3E37-95C6-A1A859EDDCE3}</UniqueIdentifier>
+      <UniqueIdentifier>{751A409A-82CE-34AB-934F-40C01B619C50}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{67865CF2-0E3B-3174-983E-49FF95359076}</UniqueIdentifier>
+      <UniqueIdentifier>{0B639144-06B0-3330-9A8E-F412CE024DC5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

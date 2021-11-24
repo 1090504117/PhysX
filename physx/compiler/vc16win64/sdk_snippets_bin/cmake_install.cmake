@@ -1,8 +1,8 @@
-# Install script for directory: D:/Programs/Projects/rpg_programs/PhysX/physx/snippets/compiler/cmake
+# Install script for directory: D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/snippets/compiler/cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Programs/Projects/rpg_programs/PhysX/physx/install/vc15win64/PhysX")
+  set(CMAKE_INSTALL_PREFIX "D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/install/vc15win64/PhysX")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

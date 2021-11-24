@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8AF8FC35-A87F-35D3-9E6C-391DE526200A}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{4BF63B3E-979E-31C8-A608-364471258899}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -116,12 +116,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config-version.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,12 +129,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config-version.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,12 +142,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config-version.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/samples/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_samples_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -155,42 +155,42 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config-version.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\targa\targa-config.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config-version.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\targa\targa-config.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\SamplesToolkit.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleBase.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleFramework.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplePlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SampleRenderer.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\Samples.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\windows\SamplesToolkit.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
-      <Project>{33289D40-3E21-3089-8B78-BC87E166F25A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
+      <Project>{1972AA38-4598-3322-9A9C-43EC5026FBF6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleBase.vcxproj">
-      <Project>{71CD0267-FA3D-3082-B76B-2F119EC0C18B}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleBase.vcxproj">
+      <Project>{E684CE17-EC26-39C7-BAFB-3C38BDFA256A}</Project>
       <Name>SampleBase</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleFramework.vcxproj">
-      <Project>{A1A842C2-EC2D-3A9E-AC9C-DCCF7BD21C09}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleFramework.vcxproj">
+      <Project>{08AB595D-B64A-30B9-A6AA-84F6DC1B42F1}</Project>
       <Name>SampleFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SamplePlatform.vcxproj">
-      <Project>{B8B932D7-A50E-35B2-9743-7A98EFC5ED14}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SamplePlatform.vcxproj">
+      <Project>{D2D1AA10-D473-3463-A346-C761A015F5A2}</Project>
       <Name>SamplePlatform</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleRenderer.vcxproj">
-      <Project>{977909C3-4C48-31BB-ADDE-20C00906600F}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleRenderer.vcxproj">
+      <Project>{97C576C5-CF4C-3D5A-8550-4FDD83CCB04B}</Project>
       <Name>SampleRenderer</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleToolkit.vcxproj">
-      <Project>{DC85DCDC-DC6C-35DB-A09C-16C89760FA0F}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\SampleToolkit.vcxproj">
+      <Project>{C2A2342D-041C-3D98-B26E-329F948B9599}</Project>
       <Name>SampleToolkit</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_samples_bin\Samples.vcxproj">
-      <Project>{E223C03A-60EB-3732-BA26-5ABA88BD2E4F}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_samples_bin\Samples.vcxproj">
+      <Project>{26B52729-E639-3C7A-B04A-A49EE663234D}</Project>
       <Name>Samples</Name>
     </ProjectReference>
   </ItemGroup>

@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8D874528-B6DD-3957-A1AE-8F3947E17759}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{84E47B8D-ED9F-38FC-84D4-FBF0C298144D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>INSTALL</ProjectName>
@@ -153,7 +153,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\CMakeFiles\18761930902cd27b7968904845a20bf2\INSTALL_force.rule">
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\CMakeFiles\d2ab81892612256c02e1de50fa395421\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
 cd .
@@ -165,7 +165,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'"> </Message>
@@ -179,7 +179,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'"> </Message>
@@ -193,7 +193,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'"> </Message>
@@ -207,20 +207,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
-      <Project>{33289D40-3E21-3089-8B78-BC87E166F25A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
+      <Project>{1972AA38-4598-3322-9A9C-43EC5026FBF6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\ALL_BUILD.vcxproj">
-      <Project>{8AF8FC35-A87F-35D3-9E6C-391DE526200A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\ALL_BUILD.vcxproj">
+      <Project>{4BF63B3E-979E-31C8-A608-364471258899}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

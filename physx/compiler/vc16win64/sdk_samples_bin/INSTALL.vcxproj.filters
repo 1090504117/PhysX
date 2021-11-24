@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\CMakeFiles\12598ab8ce26901dedd86c669b63a1de\INSTALL_force.rule">
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\CMakeFiles\8ebad697b716044eaf9e6243c8758b78\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{028AB4ED-FD40-3EF1-8241-6112771C5637}</UniqueIdentifier>
+      <UniqueIdentifier>{7E4216B9-0B48-35EF-BD35-590DE55E99DB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

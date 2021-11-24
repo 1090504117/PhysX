@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8AF8FC35-A87F-35D3-9E6C-391DE526200A}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{4BF63B3E-979E-31C8-A608-364471258899}</ProjectGuid>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -116,12 +116,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,12 +129,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,12 +142,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/Programs/Projects/rpg_programs/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
-D:\Programs\Software\CMake\bin\cmake.exe -SD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/public -BD:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Programs/Projects/rpg_programs/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+D:\Programs\Software\CMake\bin\cmake.exe -SD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/public -BD:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64 --check-stamp-file D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/compiler/vc16win64/sdk_snippets_bin/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -155,162 +155,162 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Programs\Projects\rpg_programs\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Programs\Projects\rpg_programs\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\ConfigureFileMT.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\GetCompilerAndPlatform.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\NvidiaBuildOptions.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\externals\cmakemodules\SetOutputPaths.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\SnippetVehicleTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\CMakeLists.txt;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetRender.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetTemplate.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetUtils.cmake;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\compiler\cmake\windows\SnippetVehicleTemplate.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
-      <Project>{33289D40-3E21-3089-8B78-BC87E166F25A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\ZERO_CHECK.vcxproj">
+      <Project>{1972AA38-4598-3322-9A9C-43EC5026FBF6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetArticulation.vcxproj">
-      <Project>{6211AE2E-EC32-385C-8670-EBD582AA01B6}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetArticulation.vcxproj">
+      <Project>{B74D5234-1607-31EA-B92B-D1B4189521BF}</Project>
       <Name>SnippetArticulation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetBVHStructure.vcxproj">
-      <Project>{8B39BB49-46AF-3A3D-841E-011781AF794A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetBVHStructure.vcxproj">
+      <Project>{4C1F6A0A-8664-363F-9705-93FC6C33F14E}</Project>
       <Name>SnippetBVHStructure</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetContactModification.vcxproj">
-      <Project>{34A09A4D-37A8-3C53-889A-FB19F9F9F408}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetContactModification.vcxproj">
+      <Project>{8E99F19A-C903-3984-9AF6-BD87EA38DC94}</Project>
       <Name>SnippetContactModification</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetContactReport.vcxproj">
-      <Project>{0B088290-C3B1-3D32-9D2B-1FF89E1B43FC}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetContactReport.vcxproj">
+      <Project>{75D6306B-5BAF-33B2-A19B-1879B2F7A24C}</Project>
       <Name>SnippetContactReport</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetContactReportCCD.vcxproj">
-      <Project>{15853DCA-F32C-3D6C-B7F4-93E449C5E3C1}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetContactReportCCD.vcxproj">
+      <Project>{47866358-8103-3853-B1C4-9A06BBD822D8}</Project>
       <Name>SnippetContactReportCCD</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetConvert.vcxproj">
-      <Project>{54D3FEC7-A44A-3003-83B4-5930B9A9D999}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetConvert.vcxproj">
+      <Project>{220F3736-4C96-3376-AEB1-6AF46B3D7B1A}</Project>
       <Name>SnippetConvert</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetConvexMeshCreate.vcxproj">
-      <Project>{893A25C6-3BC7-38D7-8E72-E49D0D010287}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetConvexMeshCreate.vcxproj">
+      <Project>{0F351C75-CDBB-3D35-BEFE-052091732761}</Project>
       <Name>SnippetConvexMeshCreate</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetCustomJoint.vcxproj">
-      <Project>{92E261D6-86E1-3B66-B18B-D9A715881593}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetCustomJoint.vcxproj">
+      <Project>{C6168B1B-3974-359E-89D9-C68E9346E1CA}</Project>
       <Name>SnippetCustomJoint</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetCustomProfiler.vcxproj">
-      <Project>{A97A2207-88AE-327D-9EBF-388B51291D8A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetCustomProfiler.vcxproj">
+      <Project>{3B3BE4C8-414D-339D-B961-1EA24E89E67B}</Project>
       <Name>SnippetCustomProfiler</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetDeformableMesh.vcxproj">
-      <Project>{67ED1C7E-310F-3905-AF6F-0010650A8184}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetDeformableMesh.vcxproj">
+      <Project>{34A10AE2-AFE5-38C1-BC1F-67080454BB4C}</Project>
       <Name>SnippetDeformableMesh</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetDelayLoadHook.vcxproj">
-      <Project>{C55EDB2A-507C-3FD5-BC49-B85A97741637}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetDelayLoadHook.vcxproj">
+      <Project>{8235F724-0C25-34FA-A3DD-20D7FD1DD899}</Project>
       <Name>SnippetDelayLoadHook</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetHelloGRB.vcxproj">
-      <Project>{3CCECA77-FCA1-3F6F-84CD-C5D165885B9B}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetHelloGRB.vcxproj">
+      <Project>{AEB470A1-A51A-3D48-BA4D-B264FB57957A}</Project>
       <Name>SnippetHelloGRB</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetHelloWorld.vcxproj">
-      <Project>{99276581-0AD2-3174-A716-969AF78C6810}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetHelloWorld.vcxproj">
+      <Project>{37D68B06-F87D-32E7-9C27-29506EB5E49B}</Project>
       <Name>SnippetHelloWorld</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetImmediateArticulation.vcxproj">
-      <Project>{30DF3821-0D71-37E5-963D-3C4AE9285C37}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetImmediateArticulation.vcxproj">
+      <Project>{95B50965-A20D-383E-B7F6-D79E829752E8}</Project>
       <Name>SnippetImmediateArticulation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetImmediateMode.vcxproj">
-      <Project>{CDD87728-A0C6-39AC-B547-C06B523DF742}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetImmediateMode.vcxproj">
+      <Project>{ED14A886-A750-31DC-AC6D-296D2FEAA75D}</Project>
       <Name>SnippetImmediateMode</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetJoint.vcxproj">
-      <Project>{9F6F8619-61A4-361A-8D32-D5745645A6DD}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetJoint.vcxproj">
+      <Project>{64EAEF98-AE76-315F-99BE-47831994C6AF}</Project>
       <Name>SnippetJoint</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetLoadCollection.vcxproj">
-      <Project>{576D6A06-E3DE-31C9-8198-E345D6B63C1D}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetLoadCollection.vcxproj">
+      <Project>{43D56E1F-6404-3E13-93D2-A499EF2CE17E}</Project>
       <Name>SnippetLoadCollection</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetMBP.vcxproj">
-      <Project>{E89BD658-4B88-3D01-ABBA-36BB7D2FA1AD}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetMBP.vcxproj">
+      <Project>{3FA8462F-7691-3718-8921-AD4171539E93}</Project>
       <Name>SnippetMBP</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetMultiThreading.vcxproj">
-      <Project>{15917E55-F2AB-3574-BF2D-99261CE7EA98}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetMultiThreading.vcxproj">
+      <Project>{D52B321C-9FD3-3330-8F1F-CE0135400A57}</Project>
       <Name>SnippetMultiThreading</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetNestedScene.vcxproj">
-      <Project>{86EA5129-888E-3B71-9663-11C2BCE14803}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetNestedScene.vcxproj">
+      <Project>{033DE55C-B6D8-303A-A952-14AD01303396}</Project>
       <Name>SnippetNestedScene</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetPrunerSerialization.vcxproj">
-      <Project>{78CD847D-311A-3406-8C85-DCA29C3C5EA3}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetPrunerSerialization.vcxproj">
+      <Project>{C865FBF5-C05C-3101-947B-E072BC73BDC1}</Project>
       <Name>SnippetPrunerSerialization</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetRaycastCCD.vcxproj">
-      <Project>{B38E2F41-CAEF-3F0F-B45D-9EB9D6BF2A73}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetRaycastCCD.vcxproj">
+      <Project>{B75A5094-CAA6-33F8-9E93-0F1F0270A4AB}</Project>
       <Name>SnippetRaycastCCD</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetRender.vcxproj">
-      <Project>{C2AABEB6-84D8-32BD-B3A7-68599F50736A}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetRender.vcxproj">
+      <Project>{606B0B30-7245-3E5B-956A-17380FC424E5}</Project>
       <Name>SnippetRender</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetSerialization.vcxproj">
-      <Project>{44EF1BE3-BAC5-3344-88BC-A74F417D3C90}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetSerialization.vcxproj">
+      <Project>{BE2B4226-9D37-3A8F-89AB-C66652F21F42}</Project>
       <Name>SnippetSerialization</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetSplitFetchResults.vcxproj">
-      <Project>{650DFE3E-0412-3D81-B345-454DF38FFF63}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetSplitFetchResults.vcxproj">
+      <Project>{6D3493F2-5946-3C49-BF42-22F52CA1DF24}</Project>
       <Name>SnippetSplitFetchResults</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetSplitSim.vcxproj">
-      <Project>{4918F4C9-FD35-32DF-BD77-53FD1F02EE52}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetSplitSim.vcxproj">
+      <Project>{41C04009-E256-3C78-B5E9-3661BD67B2D0}</Project>
       <Name>SnippetSplitSim</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetStepper.vcxproj">
-      <Project>{565459ED-B9CE-3D98-8F3F-9BE553EDEBA9}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetStepper.vcxproj">
+      <Project>{902B05FA-1D8B-32CB-8AD5-21E073AD6C2C}</Project>
       <Name>SnippetStepper</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetToleranceScale.vcxproj">
-      <Project>{D2F6E158-35EF-3D6F-A987-7E9D502EFAB0}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetToleranceScale.vcxproj">
+      <Project>{17CA1468-C7CC-3A49-AB0F-ACDB7D40F40A}</Project>
       <Name>SnippetToleranceScale</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetTriangleMeshCreate.vcxproj">
-      <Project>{0327A67B-75C0-3EF1-9D38-CEF01E2F1E3D}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetTriangleMeshCreate.vcxproj">
+      <Project>{8260C39C-EF7A-31E2-9C85-C4973B244898}</Project>
       <Name>SnippetTriangleMeshCreate</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetUtils.vcxproj">
-      <Project>{21F1D2AC-ED2F-3759-A39D-D548F6D98D99}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetUtils.vcxproj">
+      <Project>{1479AEAE-1148-3D03-A90D-ED137B5C3F78}</Project>
       <Name>SnippetUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicle4W.vcxproj">
-      <Project>{6EBF072D-DB58-371B-B562-795DB8A172A0}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicle4W.vcxproj">
+      <Project>{077F33AB-84A7-3A86-9638-D0C8F30D6768}</Project>
       <Name>SnippetVehicle4W</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleContactMod.vcxproj">
-      <Project>{CCFB2370-A8A8-30AC-9895-104B6C1E4DA8}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleContactMod.vcxproj">
+      <Project>{3709AC3F-D8CF-3653-A1E1-1902BF907E16}</Project>
       <Name>SnippetVehicleContactMod</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleMultiThreading.vcxproj">
-      <Project>{B1F875A7-B34F-3BE8-A823-D6924DF81D58}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleMultiThreading.vcxproj">
+      <Project>{4EDD422E-2AA1-31E9-ACAB-048BC7B11C09}</Project>
       <Name>SnippetVehicleMultiThreading</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleNoDrive.vcxproj">
-      <Project>{9CE1A4A5-C905-36D9-9C0C-F57C15772C23}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleNoDrive.vcxproj">
+      <Project>{3D3ECF99-1B96-38DF-9FDA-B8D934520943}</Project>
       <Name>SnippetVehicleNoDrive</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleScale.vcxproj">
-      <Project>{0FEFD821-3EC2-3C96-B233-1A0F9060DF1E}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleScale.vcxproj">
+      <Project>{5BD85493-0410-3665-8F7C-8DA7E5ADDD41}</Project>
       <Name>SnippetVehicleScale</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Programs\Projects\rpg_programs\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleTank.vcxproj">
-      <Project>{5644CE0D-9219-3931-9AD6-B31EF52AF6B1}</Project>
+    <ProjectReference Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\compiler\vc16win64\sdk_snippets_bin\SnippetVehicleTank.vcxproj">
+      <Project>{B54B8CBE-E9E5-3C0F-BB66-58DB9465CF9F}</Project>
       <Name>SnippetVehicleTank</Name>
     </ProjectReference>
   </ItemGroup>

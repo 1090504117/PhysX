@@ -1,228 +1,228 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\src\px_globals.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\src\px_globals.cpp">
       <Filter>API Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcContactCache.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcContactCache.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialHeightField.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialHeightField.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialMesh.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialMesh.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialShape.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcMaterialShape.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpBatch.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpBatch.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp">
       <Filter>Common Source\pipeline</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsCCD.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsCCD.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsContactManager.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsContactManager.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsContext.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsContext.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsDefaultMemoryManager.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsDefaultMemoryManager.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsIslandSim.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsIslandSim.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsMaterialCombiner.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsMaterialCombiner.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsNphaseImplementationContext.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsNphaseImplementationContext.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\src\PxsSimpleIslandManager.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\src\PxsSimpleIslandManager.cpp">
       <Filter>Software Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxsMaterialCore.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxsMaterialCore.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxsMaterialManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxsMaterialManager.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxvConfig.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxvConfig.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxvDynamics.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxvDynamics.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxvGeometry.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxvGeometry.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxvGlobals.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxvGlobals.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxvManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxvManager.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\api\include\PxvSimStats.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\api\include\PxvSimStats.h">
       <Filter>API Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\collision\PxcContactMethodImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\collision\PxcContactMethodImpl.h">
       <Filter>Common Includes\collision</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcConstraintBlockStream.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcConstraintBlockStream.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcContactCache.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcContactCache.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcMaterialMethodImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcMaterialMethodImpl.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpBatch.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpBatch.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpCache.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpCache.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpCacheStreamPair.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpCacheStreamPair.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpContactPrepShared.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpContactPrepShared.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpMemBlockPool.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpMemBlockPool.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpThreadContext.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpThreadContext.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpWorkUnit.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\pipeline\PxcNpWorkUnit.h">
       <Filter>Common Includes\pipeline</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\utils\PxcScratchAllocator.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\utils\PxcScratchAllocator.h">
       <Filter>Common Includes\utils</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\common\include\utils\PxcThreadCoherentCache.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\common\include\utils\PxcThreadCoherentCache.h">
       <Filter>Common Includes\utils</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsBodySim.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsBodySim.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsCCD.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsCCD.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsContactManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsContactManager.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsContactManagerState.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsContactManagerState.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsContext.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsContext.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsDefaultMemoryManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsDefaultMemoryManager.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsHeapMemoryAllocator.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsHeapMemoryAllocator.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsIncrementalConstraintPartitioning.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsIncrementalConstraintPartitioning.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsIslandManagerTypes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsIslandManagerTypes.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsIslandSim.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsIslandSim.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsIslandNodeIndex.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsIslandNodeIndex.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsKernelWrangler.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsKernelWrangler.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsMaterialCombiner.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsMaterialCombiner.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsMemoryManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsMemoryManager.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsNphaseImplementationContext.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsNphaseImplementationContext.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsRigidBody.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsRigidBody.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsShapeSim.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsShapeSim.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsSimpleIslandManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsSimpleIslandManager.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsSimulationController.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsSimulationController.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxsTransformCache.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxsTransformCache.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\lowlevel\software\include\PxvNphaseImplementationContext.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\lowlevel\software\include\PxvNphaseImplementationContext.h">
       <Filter>Software Includes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="API Includes">
-      <UniqueIdentifier>{DB77332C-E528-38CB-A21F-E74579B05918}</UniqueIdentifier>
+      <UniqueIdentifier>{31B94769-D170-3C6C-AC9A-ED009593E1B0}</UniqueIdentifier>
     </Filter>
     <Filter Include="API Source">
-      <UniqueIdentifier>{1756F2BA-9148-3F79-89EE-2698B119A2D4}</UniqueIdentifier>
+      <UniqueIdentifier>{6110FEEE-33B5-3DAB-B395-8430111CF61E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common Includes">
-      <UniqueIdentifier>{397187EF-94FC-31B6-9EC0-95F6C0943B3E}</UniqueIdentifier>
+      <UniqueIdentifier>{A41EBC20-D675-3C04-A749-1AC74E89AF43}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common Includes\collision">
-      <UniqueIdentifier>{0AA839D0-0CA4-326F-A041-431154E5371C}</UniqueIdentifier>
+      <UniqueIdentifier>{83175AA9-6879-34BB-BFFD-8A36B9E35E55}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common Includes\pipeline">
-      <UniqueIdentifier>{F2963068-E61A-3ABB-8872-6977B9E7D410}</UniqueIdentifier>
+      <UniqueIdentifier>{A4785DB1-8FCF-3A46-8F5C-8B1D30DD5EAC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common Includes\utils">
-      <UniqueIdentifier>{33FF6688-1AC2-35E4-8DBA-3B0C34A37AB9}</UniqueIdentifier>
+      <UniqueIdentifier>{4E6E5E68-AA76-3142-862A-2943101E899C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common Source">
-      <UniqueIdentifier>{BD6EA31C-42CC-3E2C-BC8A-623D29F55189}</UniqueIdentifier>
+      <UniqueIdentifier>{17116F10-CDB9-33A4-B263-D481B0CE0BE7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common Source\pipeline">
-      <UniqueIdentifier>{F5BF6263-F790-36EF-8040-274D133D12F6}</UniqueIdentifier>
+      <UniqueIdentifier>{792DBE03-9FBF-3F67-BE38-0AD0C598B7B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Software Includes">
-      <UniqueIdentifier>{CA027D48-45AA-3E05-9582-687A83397E73}</UniqueIdentifier>
+      <UniqueIdentifier>{ACDE6DA0-84FD-3331-9315-ADE0C9C55B31}</UniqueIdentifier>
     </Filter>
     <Filter Include="Software Source">
-      <UniqueIdentifier>{33B59F55-77F9-3AB4-AECE-E0881A0B2304}</UniqueIdentifier>
+      <UniqueIdentifier>{8B2D60A7-A180-36DC-8F28-8CEB70F97567}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

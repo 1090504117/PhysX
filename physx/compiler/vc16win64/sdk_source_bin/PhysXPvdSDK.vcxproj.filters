@@ -1,243 +1,243 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventImpl.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventImpl.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvd.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvd.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdDataStream.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdDataStream.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdImpl.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdImpl.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdMemClient.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdMemClient.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdUserRenderer.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdUserRenderer.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\include\pvd\PxPvd.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include\pvd\PxPvd.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\include\pvd\PxPvdTransport.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include\pvd\PxPvdTransport.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\filebuf\include\PsAsciiConversion.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\filebuf\include\PsAsciiConversion.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\filebuf\include\PsAsciiConversion.inl">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\filebuf\include\PsAsciiConversion.inl">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\filebuf\include\PsFileBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\filebuf\include\PsFileBuffer.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\filebuf\include\PsIOStream.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\filebuf\include\PsIOStream.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\filebuf\include\PsIOStream.inl">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\filebuf\include\PsIOStream.inl">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\filebuf\include\PsMemoryBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\filebuf\include\PsMemoryBuffer.h">
       <Filter>filebuf\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PsPvd.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PsPvd.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxProfileAllocatorWrapper.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxProfileAllocatorWrapper.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdClient.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdClient.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdDataStream.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdDataStream.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdDataStreamHelpers.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdDataStreamHelpers.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdErrorCodes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdErrorCodes.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdObjectModelBaseTypes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdObjectModelBaseTypes.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdRenderBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdRenderBuffer.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\include\PxPvdUserRenderer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\include\PxPvdUserRenderer.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileContextProvider.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileContextProvider.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileContextProviderImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileContextProviderImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileDataBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileDataBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileDataParsing.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileDataParsing.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventBufferAtomic.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventBufferAtomic.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventBufferClient.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventBufferClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventBufferClientManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventBufferClientManager.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventId.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventId.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventMutex.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventMutex.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventNames.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventNames.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEvents.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventSender.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventSender.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileEventSerialization.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileEventSerialization.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileMemory.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileMemory.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileMemoryBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileMemoryBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileMemoryEventBuffer.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileMemoryEventBuffer.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileMemoryEvents.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileMemoryEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileScopedEvent.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileScopedEvent.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileScopedMutexLock.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileScopedMutexLock.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdProfileZone.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdProfileZone.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileZoneImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileZoneImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileZoneManager.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileZoneManager.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxProfileZoneManagerImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxProfileZoneManagerImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdBits.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdBits.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdByteStreams.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdByteStreams.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdCommStreamEvents.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdCommStreamEvents.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdCommStreamEventSink.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdCommStreamEventSink.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdCommStreamTypes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdCommStreamTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdDefaultFileTransport.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdDefaultSocketTransport.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdFoundation.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdFoundation.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdInternalByteStreams.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdInternalByteStreams.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdMarshalling.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdMarshalling.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdMemClient.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdMemClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdObjectModelInternalTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdObjectModelMetaData.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdObjectRegistrar.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdProfileZoneClient.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdUserRenderImpl.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdUserRenderImpl.h">
       <Filter>src\src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\pvd\src\PxPvdUserRenderTypes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\pvd\src\PxPvdUserRenderTypes.h">
       <Filter>src\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="filebuf">
-      <UniqueIdentifier>{C509A2A4-8465-3023-B920-2335B6D2BDE3}</UniqueIdentifier>
+      <UniqueIdentifier>{453C81E9-8388-35C5-9FE8-DE7BE75F1671}</UniqueIdentifier>
     </Filter>
     <Filter Include="filebuf\include">
-      <UniqueIdentifier>{CC6E4417-22C3-372B-9879-3B46389097E4}</UniqueIdentifier>
+      <UniqueIdentifier>{A61385C2-9BCE-311F-A7B5-96DEF66E6213}</UniqueIdentifier>
     </Filter>
     <Filter Include="include">
-      <UniqueIdentifier>{8A739983-FAFD-33D5-96B4-6A50B69201A1}</UniqueIdentifier>
+      <UniqueIdentifier>{BF21205E-7A0F-3810-8816-4E59F1E6BBE4}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{4315B1DC-8C3B-324F-B604-353B26565D04}</UniqueIdentifier>
+      <UniqueIdentifier>{D181AC40-D292-33E9-BF5B-29BA9E6CD6BE}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\include">
-      <UniqueIdentifier>{4D9729A6-A72C-398A-ACA6-15BA605FA754}</UniqueIdentifier>
+      <UniqueIdentifier>{8C69AB7F-78C3-3FE5-8B17-9BC21D01F23B}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\src">
-      <UniqueIdentifier>{36E22EF2-2513-3F0C-AA89-219E45AD118A}</UniqueIdentifier>
+      <UniqueIdentifier>{CBA5355D-B914-3153-B756-138D95C27CF2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

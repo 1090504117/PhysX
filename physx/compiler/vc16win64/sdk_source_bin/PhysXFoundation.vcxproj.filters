@@ -1,335 +1,335 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsAllocator.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsAllocator.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsAssert.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsAssert.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsFoundation.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsFoundation.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsMathUtils.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsMathUtils.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsString.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsString.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsTempAllocator.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsTempAllocator.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\PsUtilities.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\PsUtilities.cpp">
       <Filter>src\src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsAtomic.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsAtomic.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsCpu.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsCpu.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsFPU.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsFPU.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsMutex.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsMutex.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsPrintString.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsPrintString.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsSList.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsSList.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsSocket.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsSocket.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsSync.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsSync.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsThread.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsThread.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\src\windows\PsWindowsTime.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\src\windows\PsWindowsTime.cpp">
       <Filter>src\src\windows</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\Ps.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\Ps.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsAlignedMalloc.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsAlignedMalloc.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsAlloca.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsAlloca.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsAllocator.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsAllocator.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsAoS.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsAoS.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsArray.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsArray.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsAtomic.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsAtomic.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsBasicTemplates.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsBasicTemplates.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsBitUtils.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsBitUtils.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsBroadcast.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsBroadcast.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsCpu.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsCpu.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsFoundation.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsFoundation.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsFPU.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsFPU.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsHash.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsHash.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsHashInternals.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsHashInternals.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsHashMap.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsHashMap.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsHashSet.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsHashSet.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsInlineAllocator.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsInlineAllocator.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsInlineAoS.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsInlineAoS.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsInlineArray.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsInlineArray.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsIntrinsics.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsIntrinsics.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsMathUtils.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsMathUtils.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsMutex.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsMutex.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsPool.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsPool.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsSList.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsSList.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsSocket.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsSocket.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsSort.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsSort.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsSortInternals.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsSortInternals.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsString.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsString.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsSync.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsSync.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsTempAllocator.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsTempAllocator.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsThread.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsThread.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsTime.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsTime.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsUserAllocated.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsUserAllocated.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsUtilities.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsUtilities.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecMath.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecMath.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecMathAoSScalar.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecMathAoSScalar.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecMathAoSScalarInline.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecMathAoSScalarInline.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecMathSSE.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecMathSSE.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecMathUtilities.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecMathUtilities.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecQuat.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecQuat.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\PsVecTransform.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\PsVecTransform.h">
       <Filter>src\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\include\PxFoundation.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include\PxFoundation.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\include\foundation\PxAssert.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include\foundation\PxAssert.h">
       <Filter>include\foundation</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\include\foundation\PxFoundationConfig.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include\foundation\PxFoundationConfig.h">
       <Filter>include\foundation</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\include\foundation\PxMathUtils.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include\foundation\PxMathUtils.h">
       <Filter>include\foundation</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\windows\PsWindowsAoS.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\windows\PsWindowsAoS.h">
       <Filter>src\include\windows</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\windows\PsWindowsFPU.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\windows\PsWindowsFPU.h">
       <Filter>src\include\windows</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\windows\PsWindowsInclude.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\windows\PsWindowsInclude.h">
       <Filter>src\include\windows</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\windows\PsWindowsInlineAoS.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\windows\PsWindowsInlineAoS.h">
       <Filter>src\include\windows</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\windows\PsWindowsIntrinsics.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\windows\PsWindowsIntrinsics.h">
       <Filter>src\include\windows</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\foundation\include\windows\PsWindowsTrigConstants.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include\windows\PsWindowsTrigConstants.h">
       <Filter>src\include\windows</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\Px.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\Px.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxAllocatorCallback.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxAllocatorCallback.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxProfiler.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxProfiler.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxSharedAssert.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxSharedAssert.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxBitAndData.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxBitAndData.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxBounds3.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxBounds3.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxErrorCallback.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxErrorCallback.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxErrors.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxErrors.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxFlags.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxFlags.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxIntrinsics.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxIntrinsics.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxIO.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxIO.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxMat33.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxMat33.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxMat44.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxMat44.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxMath.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxMath.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxMemory.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxMemory.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxPlane.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxPlane.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxPreprocessor.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxPreprocessor.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxQuat.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxQuat.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxSimpleTypes.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxSimpleTypes.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxStrideIterator.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxStrideIterator.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxTransform.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxTransform.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxUnionCast.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxUnionCast.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxVec2.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxVec2.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxVec3.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxVec3.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\PxVec4.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\PxVec4.h">
       <Filter>shared\include</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\pxshared\include\foundation\windows\PxWindowsIntrinsics.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\pxshared\include\foundation\windows\PxWindowsIntrinsics.h">
       <Filter>shared\include\windows</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\source\compiler\resource_x64\PhysXFoundation.rc">
+    <ResourceCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\compiler\resource_x64\PhysXFoundation.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{8A739983-FAFD-33D5-96B4-6A50B69201A1}</UniqueIdentifier>
+      <UniqueIdentifier>{BF21205E-7A0F-3810-8816-4E59F1E6BBE4}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\foundation">
-      <UniqueIdentifier>{DF103F21-2012-3E54-AC26-8B61C68E0B23}</UniqueIdentifier>
+      <UniqueIdentifier>{A03F44B8-46DD-39A1-B595-CD34A2B80C08}</UniqueIdentifier>
     </Filter>
     <Filter Include="resource">
-      <UniqueIdentifier>{064E9F2E-3446-3F81-8885-A8765109617B}</UniqueIdentifier>
+      <UniqueIdentifier>{C93DC7CC-4C45-30DB-87E8-D33CB1FADE01}</UniqueIdentifier>
     </Filter>
     <Filter Include="shared">
-      <UniqueIdentifier>{3812428D-7EFC-3693-B5FF-9E23D6016A65}</UniqueIdentifier>
+      <UniqueIdentifier>{67CA40AE-1D2E-3875-A766-A6D7156B8B49}</UniqueIdentifier>
     </Filter>
     <Filter Include="shared\include">
-      <UniqueIdentifier>{88E6A55E-D029-32F5-A758-1E72E5A89C18}</UniqueIdentifier>
+      <UniqueIdentifier>{002295AE-FE04-3BB4-AB9D-B83B1F8FCC20}</UniqueIdentifier>
     </Filter>
     <Filter Include="shared\include\windows">
-      <UniqueIdentifier>{9F2C375F-15B7-3BE2-84D4-9F628AE1395A}</UniqueIdentifier>
+      <UniqueIdentifier>{BC4B8AE2-1B82-3BC7-896F-882FE7A0F720}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{4315B1DC-8C3B-324F-B604-353B26565D04}</UniqueIdentifier>
+      <UniqueIdentifier>{D181AC40-D292-33E9-BF5B-29BA9E6CD6BE}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\include">
-      <UniqueIdentifier>{4D9729A6-A72C-398A-ACA6-15BA605FA754}</UniqueIdentifier>
+      <UniqueIdentifier>{8C69AB7F-78C3-3FE5-8B17-9BC21D01F23B}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\include\windows">
-      <UniqueIdentifier>{9E80DE18-0D0A-3DD4-B969-EB080E1A2640}</UniqueIdentifier>
+      <UniqueIdentifier>{6D9543A0-E579-3E09-A1D9-9F750DEB98F8}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\src">
-      <UniqueIdentifier>{36E22EF2-2513-3F0C-AA89-219E45AD118A}</UniqueIdentifier>
+      <UniqueIdentifier>{CBA5355D-B914-3153-B756-138D95C27CF2}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\src\windows">
-      <UniqueIdentifier>{F3327001-EF93-331A-937A-99A754ADD4BB}</UniqueIdentifier>
+      <UniqueIdentifier>{98D9ED4A-BAAC-3030-99D5-A2C812C8DC32}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

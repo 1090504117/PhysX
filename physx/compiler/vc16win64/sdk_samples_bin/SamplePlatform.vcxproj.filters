@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\src\windows\WindowsSamplePlatform.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\src\windows\WindowsSamplePlatform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\src\windows\WindowsSampleUserInput.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\src\windows\WindowsSampleUserInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\src\SamplePlatform.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\src\SamplePlatform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\src\SampleUserInput.cpp">
+    <ClCompile Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\src\SampleUserInput.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include\windows\WindowsSampleUserInputIds.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\include\windows\WindowsSampleUserInputIds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include\windows\WindowsSampleUserInput.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\include\windows\WindowsSampleUserInput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include\windows\WindowsSamplePlatform.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\include\windows\WindowsSamplePlatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include\SampleUserInputIds.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\include\SampleUserInputIds.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include\SampleUserInput.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\include\SampleUserInput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\sampleframework\platform\include\SamplePlatform.h">
+    <ClInclude Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\sampleframework\platform\include\SamplePlatform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Programs\Projects\rpg_programs\PhysX\physx\samples\compiler\cmake\CMakeLists.txt" />
+    <CustomBuild Include="D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\samples\compiler\cmake\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{C15669F5-9BD2-3E37-95C6-A1A859EDDCE3}</UniqueIdentifier>
+      <UniqueIdentifier>{751A409A-82CE-34AB-934F-40C01B619C50}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{67865CF2-0E3B-3174-983E-49FF95359076}</UniqueIdentifier>
+      <UniqueIdentifier>{0B639144-06B0-3330-9A8E-F412CE024DC5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
