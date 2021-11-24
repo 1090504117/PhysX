@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\snippets\snippetaddforce\SnippetAddForce.cpp" />
+    <ClCompile Include="..\..\..\snippets\snippetaddforce\SnippetAddForceRender.cpp" />
+    <ClCompile Include="..\..\..\snippets\snippetcommon\ClassicMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\snippets\snippetcommon\SnippetPrint.h" />
+    <ClInclude Include="..\..\..\snippets\snippetcommon\SnippetPVD.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6cdbba08-9a93-4dfc-971c-c2c6a6620e79}</ProjectGuid>
+    <RootNamespace>SnippeAddForce</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>SnippetAddForce</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\</OutDir>
+    <IntDir>SnippetArticulation.dir\debug\</IntDir>
+    <TargetName>SnippetArticulation_64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;RENDER_SNIPPET;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;PX_SUPPORT_PVD=1;CMAKE_INTDIR="debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>Default</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\include;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\physxextensions\src;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\..\pxshared\include;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\foundation\include;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\include;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\contact;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\common;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\convex;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\distance;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\sweep;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\gjk;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\intersection;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\mesh;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\hf;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\pcm;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\source\geomutils\src\ccd;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\Graphics\include\win32\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577;4996</DisableSpecificWarnings>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXExtensions_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysX_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXPvdSDK_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXVehicle_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXCharacterKinematic_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXCooking_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXCommon_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SnippetUtils_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\SnippetRender_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXPvdSDK_static_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\bin\win.x86_64.vc142.mt\debug\PhysXFoundation_64.lib;D:\Projects\Myself\CPlusPlusProjects\PhysX\physx\snippets\Graphics\lib\win64\glut\glut32.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/bin/win.x86_64.vc142.mt/debug/SnippetAddForce_64.pdb</ProgramDatabaseFile>
+      <ImportLibrary>D:/Projects/Myself/CPlusPlusProjects/PhysX/physx/bin/win.x86_64.vc142.mt/debug/SnippetAddForce_64.lib</ImportLibrary>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
